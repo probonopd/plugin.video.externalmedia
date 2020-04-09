@@ -11,4 +11,5 @@ cd /storage/.kodi/addons/
 wget -c https://github.com/probonopd/plugin.video.externalmedia/archive/master.zip -O plugin.video.externalmedia.zip
 unzip plugin.video.externalmedia.zip
 mv plugin.video.externalmedia-master plugin.video.externalmedia
+killall kodi.bin
 ```

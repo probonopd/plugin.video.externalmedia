@@ -4,8 +4,7 @@ version="0.1"
 name="External Media"
 provider-name="probono">
 <requires>
-  <!--<import addon="xbmc.python" version="2.25.0"/>-->
-  <import addon="script.module.future" version="0.17.1"/>
+  <import addon="xbmc.python" version="3.0.0"/>
   <import addon="script.module.web-pdb" />
 </requires>
 <extension point="xbmc.python.pluginsource" library="main.py">

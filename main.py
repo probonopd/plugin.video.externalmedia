@@ -3,13 +3,15 @@
 # Debug with
 # cat /storage/.kodi/temp/kodi.log
 
+from future import standard_library
+standard_library.install_aliases()
 import sys
 reload(sys)
 sys.setdefaultencoding('utf8')
 
 import os
-from urllib import urlencode
-from urlparse import parse_qsl
+from urllib.parse import urlencode
+from urllib.parse import parse_qsl
 
 import xbmcgui
 import xbmcplugin

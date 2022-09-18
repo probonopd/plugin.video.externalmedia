@@ -3,11 +3,11 @@
 # Debug with
 # cat /storage/.kodi/temp/kodi.log
 
-from future import standard_library
-standard_library.install_aliases()
+# from future import standard_library
+#standard_library.install_aliases()
 import sys
-reload(sys)
-sys.setdefaultencoding('utf8')
+# reload(sys)
+# sys.setdefaultencoding('utf8')
 
 import os
 from urllib.parse import urlencode

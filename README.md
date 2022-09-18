@@ -13,4 +13,6 @@ unzip plugin.video.externalmedia.zip
 mv plugin.video.externalmedia-python3/ plugin.video.externalmedia
 
 # Restart Kodi
+
+# In the Kodi GUI, ensure that all dependencies are installed (especially `future`)
 ```
